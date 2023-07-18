@@ -17,20 +17,20 @@ function Home(props) {
       <div className="mx-[130px] flex lg:flex-row flex-col justify-center items-center mt-[50px]">
         <img
           src={LRCLogo}
-          className="lg:w-[900px] lg:h-fit h-[650px] lg:mr-[50px] my-[50px]"
+          className="lg:w-[700px] lg:h-fit h-[650px] lg:mr-[50px] my-[20px]"
           alt="LRC Logo"
         />
         <div className="flex flex-col lg:items-center lg:mt-14">
-          <h1 className="lg:text-[104px] text-[78px] lg:self-start">
+          <h1 className="lg:text-[84px] text-[78px] lg:self-start">
             Regenerative Meats
           </h1>
-          <p className="text-[44px] leading-[4.5rem] lg:text-left text-center">
+          <p className="text-[34px] leading-[4.5rem] lg:text-left text-center">
             Our cattle are raised and finished on our farm in Walterboro, SC. We
             use regenerative practices such as no-till planting, rotational
             grazing, and prescribed fires to convert a neglected forest into
             nutrient rich silvopasture.
           </p>
-          <div className="mt-6 mb-10 self-center">
+          <div className="mt-6 self-center">
             <Button
               className="text-[32px] text-blacklite"
               text="Learn More"
@@ -62,8 +62,8 @@ function Home(props) {
           ></ImageCard>
         </div>
         <div className="flex flex-col flex-shrink-0 lg:w-[1000px] mx-[50px]">
-          <h1 className="text-[88px] text-blacklite">Grazing in the Shade</h1>
-          <p className="leading-[4.5rem] text-blacklite">
+          <h1 className="text-[64px] text-blacklite">Grazing in the Shade</h1>
+          <p className="leading-[4.5rem] text-blacklite text-[34px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea
             dictumst vestibulum rhoncus est pellentesque elit ullamcorper.
@@ -76,8 +76,8 @@ function Home(props) {
 
       <div className="flex justify-center my-[100px]" id="AboutImageSet">
         <div className="flex flex-col flex-shrink-0 lg:w-[1000px] mx-[50px]">
-          <h1 className="text-blacklite text-[88px] text-right">Grazing in the Shade</h1>
-          <p className="text-blacklite leading-[4.5rem] text-right">
+          <h1 className="text-blacklite text-[64px] text-right">Grazing in the Shade</h1>
+          <p className="text-blacklite leading-[4.5rem] text-right text-[34px]">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Platea
             dictumst vestibulum rhoncus est pellentesque elit ullamcorper.

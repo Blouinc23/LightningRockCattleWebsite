@@ -9,7 +9,7 @@ function Navbar(props) {
       </div>
       <div className="text-blacklite flex justify-between items-center mx-5 ml-10 mr-12">
         <Link className="text-[40px] hover:text-secondary transition-colors duration-200 w-fit cursor-pointer" to={'/'}> Lightning Rock Cattle</Link>
-        <div className="flex flex-row gap-12 text-[32px]">
+        <div className="flex flex-row gap-12 text-[22px]">
           <Link className="navbutton" to="/">
             Home
           </Link>

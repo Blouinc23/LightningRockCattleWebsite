@@ -81,21 +81,21 @@ function TimelineSection(props) {
 
 
   return (
-    <div className="bg-secondary lg:h-[1250px] flex flex-col items-center text-center text-[82px] text-blacklite">
+    <div className="bg-secondary lg:h-[900px] flex flex-col items-center text-center text-[68px] text-blacklite">
       <h1 className="my-[25px]">
-        Old Forrest to <br /> New Beginnings
+        Old Forrest to New Beginnings
       </h1>
 
-      <div className="flex flex-row bg-greylite lg:w-[2000px] rounded-2xl">
+      <div className="flex flex-row bg-greylite lg:w-[1400px] h-[450px] rounded-2xl">
         <img
           src={timelineEntry.image}
           alt="placeholder"
-          className="w-[1400px] h-[650px] rounded-2xl object-cover"
+          className="w-[1000px] h-[450px] rounded-2xl object-cover"
         />
-        <div className="text-left mx-[50px] lg:w-[500px] my-[50px]">
-          <h1 className="text-[52px]">{timelineEntry.title}</h1>
-          <h2 className="text-[32px]">{timelineEntry.date}</h2>
-          <p className="text-[30px]">
+        <div className="text-left mx-[50px] lg:w-[500px] my-[25px]">
+          <h1 className="text-[44px]">{timelineEntry.title}</h1>
+          <h2 className="text-[28px]">{timelineEntry.date}</h2>
+          <p className="text-[24px]">
             {timelineEntry.description}{" "}
           </p>
         </div>
@@ -106,12 +106,12 @@ function TimelineSection(props) {
           {timelineEntries.map((entry, index) => {
             return (
               <div className="flex flex-col justify-center items-center z-10">
-                <div className="bg-blacklite h-[200px] w-[200px] object-cover rounded-full mx-[30px] mt-[30px]">
+                <div className="bg-blacklite h-[150px] w-[150px] object-cover rounded-full mx-[30px] mt-[30px]">
                   <img
                     id = {entry.id}
                     src={entry.image}
                     alt={entry.title}
-                    className={`h-[200px] w-[200px] object-cover rounded-full border-blacklite opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer focus:opacity-100 ${entry.title === timelineEntry.title ? "opacity-100" : "opacity-80"}}`}
+                    className={`h-full w-full object-cover rounded-full border-blacklite opacity-80 hover:opacity-100 transition-opacity duration-200 cursor-pointer focus:opacity-100 ${entry.title === timelineEntry.title ? "opacity-100" : "opacity-80"}}`}
                     onClick={() => {
                         setTimelineEntry(entry);
                     }}
@@ -121,7 +121,7 @@ function TimelineSection(props) {
               </div>
             );
           })}
-          <div className="absolute h-[200px] w-[2000px] mx-[-100px] mt-[30px] flex items-center z-0">
+          <div className="absolute h-[200px] w-[1650px] mx-[-100px] mt-[5px] flex items-center z-0">
             <img src={TimelineVector} alt="timeline vector" />
           </div>
         </div>

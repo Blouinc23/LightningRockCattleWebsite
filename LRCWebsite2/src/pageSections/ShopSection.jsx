@@ -7,11 +7,11 @@ import Button from "../components/Button";
 
 function ShopSection(props) {
   return (
-    <div className="bg-primary w-full h-[1100px] flex flex-col">
-      <h1 className="text-white text-[88px] text-center leading-[7rem] my-[50px]">
+    <div className="bg-primary w-full h-[900px] flex flex-col">
+      <h1 className="text-white text-[64px] text-center leading-[7rem] mb-[25px]">
         From Our Farm <br /> To Your Table
       </h1>
-      <div className="flex mb-4 h-[650px] gap-[150px] mx-[100px]">
+      <div className="flex mb-4 h-[450px] gap-[150px] mx-[100px]">
         <div className="flex flex-col flex-1 mb-[25px]">
           <ImageCard title={'Beef Boxes'} sub={'Try our whole, half, and quarter cow beef boxes!'} image={BeefBox}></ImageCard>
           <h2 className="text-white text-[48px]">Beef Box</h2>
