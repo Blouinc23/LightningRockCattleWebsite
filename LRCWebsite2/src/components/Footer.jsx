@@ -10,7 +10,7 @@ function Footer(props) {
   }
 
   return (
-    <div className="bg-primary mt-[150px] w-full lg:h-[650px] h-[130vh] flex  justify-center">
+    <div className="bg-primary mt-[150px] w-full lg:h-[650px] h-auto flex  justify-center">
       <div className="h-full lg:w-[100%] flex lg:flex-row flex-col justify-center my-[0px]">
         <div className="flex flex-col items-center w-[1000px] h-[500px] my-[10px]">
           <div className="flex flex-col items-center w-[1000px] h-[500px]">
@@ -46,7 +46,7 @@ function Footer(props) {
             </form>
           </div>
         </div>
-        <div className="self-center lg:my-[10px] mt-[50px] lg:w-auto w-[100vw]">
+        <div className="self-center lg:my-[10px] mt-[50px] lg:w-auto w-[100vw]  mb-[50px]">
           <h1 className="text-[64px] text-white text-center">Our Location</h1>
           <div className="mb-[10px] flex flex-col justify-between text-center">
             <p className="text-white flex-1 mx-4 text-[24px]">

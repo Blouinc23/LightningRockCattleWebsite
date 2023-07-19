@@ -80,13 +80,13 @@ function TimelineSection(props) {
 
 
   return (
-    <div className="bg-secondary lg:h-[900px] flex flex-col items-center text-center lg:text-[68px] text-[48px]  h-[145vh] text-blacklite">
+    <div className="bg-secondary lg:h-[900px] flex flex-col items-center text-center lg:text-[68px] text-[48px]  h-auto text-blacklite">
       <h1 className="mt-[25px] mx-[10px]">
         Old Forrest to New Beginnings
       </h1>
 
       <div>
-        <div className="flex lg:items-baseline items-center lg:overflow-hidden overflow-scroll w-[100vw] justify-center lg:mt-[0px] mb-[10px] lg:pl-auto pl-[40px]">
+        <div className="flex lg:items-baseline items-center lg:overflow-hidden overflow-scroll w-[100vw] justify-center lg:mt-[0px] mb-[10px] lg:pl-auto pl-[100px]">
           {timelineEntries.map((entry, index) => {
             return (
               <div className="flex flex-col justify-center items-center z-10">
@@ -105,13 +105,13 @@ function TimelineSection(props) {
               </div>
             );
           })}
-          <div className="lg:h-[200px] w-[105vw] lg:w-[1650px] mt-[0px] flex items-center justify-start lg:ml-auto ml-[-15vw] z-0 absolute">
+          <div className="lg:h-[200px] w-[100vw] lg:w-[1650px] mt-[0px] lg:flex items-center justify-start lg:ml-auto ml-[-15vw] z-0 absolute hidden">
             <img src={TimelineVector} alt="timeline vector" />
           </div>
         </div>
       </div>
 
-      <div className="flex lg:flex-row flex-col bg-greylite lg:w-[1400px] lg:h-[450px] h-auto rounded-2xl mx-[25px] lg:mb-auto mb-[0px]">
+      <div className="flex lg:flex-row flex-col bg-greylite lg:w-[1400px] lg:h-[450px] h-auto rounded-2xl mx-[25px] lg:mb-auto mb-[50px]">
         <img
           src={timelineEntry.image}
           alt="placeholder"
