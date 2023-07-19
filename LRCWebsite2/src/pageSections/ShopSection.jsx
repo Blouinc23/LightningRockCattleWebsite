@@ -36,7 +36,7 @@ function ShopSection(props) {
       </div>
       <div className="self-center my-[50px] mb-[100px]">
         {" "}
-        <Button className='text-[32px] text-blacklite' text={"Shop All Products"} link="/shop"></Button>{" "}
+        <Button className='lg:text-[32px] md:text-[32px] text-[16px] text-blacklite' text={"Shop All Products"} link="/shop"></Button>{" "}
       </div>
     </div>
   );

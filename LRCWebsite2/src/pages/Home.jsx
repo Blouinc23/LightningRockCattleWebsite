@@ -32,7 +32,7 @@ function Home(props) {
           </p>
           <div className="mt-6 self-center">
             <Button
-              className="text-[32px] text-blacklite"
+              className="lg:text-[32px] md:text-[32px] text-[16px] text-blacklite"
               text="Learn More"
             ></Button>
           </div>
