@@ -69,7 +69,6 @@ function TimelineSection(props) {
   ];
 
   const [timelineEntry, setTimelineEntry] = React.useState(timelineEntries[0]);
-  const activeImage=useRef
   
 
   useEffect(() => {
@@ -81,8 +80,8 @@ function TimelineSection(props) {
 
 
   return (
-    <div className="bg-secondary lg:h-[900px] flex flex-col items-center text-center text-[68px] h-[145vh] text-blacklite">
-      <h1 className="mt-[25px]">
+    <div className="bg-secondary lg:h-[900px] flex flex-col items-center text-center lg:text-[68px] text-[48px]  h-[145vh] text-blacklite">
+      <h1 className="mt-[25px] mx-[10px]">
         Old Forrest to New Beginnings
       </h1>
 
@@ -106,13 +105,13 @@ function TimelineSection(props) {
               </div>
             );
           })}
-          <div className="lg:h-[200px] w-[115vw] lg:w-[1650px] mt-[0px] flex items-center justify-start lg:ml-auto ml-[-15vw] z-0 absolute">
+          <div className="lg:h-[200px] w-[105vw] lg:w-[1650px] mt-[0px] flex items-center justify-start lg:ml-auto ml-[-15vw] z-0 absolute">
             <img src={TimelineVector} alt="timeline vector" />
           </div>
         </div>
       </div>
 
-      <div className="flex lg:flex-row flex-col bg-greylite lg:w-[1400px] lg:h-[450px] h-[80vh] rounded-2xl mx-[25px] lg:mb-auto mb-[0px]">
+      <div className="flex lg:flex-row flex-col bg-greylite lg:w-[1400px] lg:h-[450px] h-auto rounded-2xl mx-[25px] lg:mb-auto mb-[0px]">
         <img
           src={timelineEntry.image}
           alt="placeholder"
@@ -121,7 +120,7 @@ function TimelineSection(props) {
         <div className="text-left mx-[50px] lg:w-[500px] lg:my-[25px] relative top-[0px] ">
           <h1 className="lg:text-[44px] text-[34px]">{timelineEntry.title}</h1>
           <h2 className="lg:text-[28px] text-[20px]">{timelineEntry.date}</h2>
-          <p className="lg:text-[24px] text-[24px]">
+          <p className="lg:text-[24px] text-[24px] mb-[25px]">
             {timelineEntry.description}{" "}
           </p>
         </div>

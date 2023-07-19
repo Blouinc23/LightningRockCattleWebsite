@@ -53,7 +53,7 @@ function Home(props) {
         <ShopSection></ShopSection>
       </div>
 
-      <div className="flex lg:flex-row flex-col items-center justify-center lg:my-[100px] my-[200px]" id="GrazingImageSet">
+      <div className="flex lg:flex-row flex-col items-center justify-center lg:my-[150px] my-[200px]" id="GrazingImageSet">
         <div className="lg:w-[600px] w-[90vw]">
           <ImageCard
             title={"Beef Boxes"}

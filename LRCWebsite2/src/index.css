@@ -13,11 +13,14 @@
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
 }
-
+html{
+  overflow-x: hidden;
+}
 body{
   overflow-x: hidden;
   font-size: 36px;
 }
+
 
 @layer components {
   .navbutton {

@@ -30,10 +30,21 @@ export default {
         "0%": { transform: "translateX(0)" },
         "100%": { transform: "translateX(-107%)" },
       },
+      slideRight: {
+        "0%": { transform: "translateX(-15%)" },
+        "100%": { transform: "translateX(110%)" },
+      },
+      slideLeft: {
+        "0%": { transform: "translateX(100%)" },
+        "100%": { transform: "translateX(-15%)" },
+      },
       },
       animation: {
         moveRight: "moveRight 15s infinite linear",
+        slideRight: "slideRight 0.5s forwards ease-out",
+        slideLeft: "slideLeft 0.5s forwards ease-out",
       },
+
 
       colors: {
         primary: "#7c503c",
