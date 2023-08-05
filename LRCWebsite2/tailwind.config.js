@@ -51,6 +51,8 @@ export default {
         secondary: "#82B593",
         blacklite: "#3A3431",
         greylite: "#D9D9D9",
+        brownlite: "#DBD1CC",
+        greenlite: "#F2F6F7",
       },
       
     plugins: [],

@@ -22,7 +22,7 @@ function App() {
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
-      <footer>
+      <footer className='z-10'>
         <Footer />
       </footer>
     </>
