@@ -78,7 +78,7 @@ function ShopSubItem({
       </div>
 
       <div>
-        <p className="text-[18px]">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        <p className="text-[18px]">{MoreInfo}</p>
       </div>
      
       </div>
