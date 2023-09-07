@@ -6,7 +6,7 @@ function ShopItem({shopSubItems,shopItem}) {
   return (
     <div className="flex bg-brownlite p-5 rounded-xl relative text-blacklite">
       <div className="rounded-xl overflow-hidden">
-        <img src={shopItem.Image} alt="placeholder"></img>
+        <img src={shopItem.Image? shopItem.Image : 'https://fakeimg.pl/400x400'} alt="placeholder"></img>
       </div>
       <div className="flex flex-col mx-[50px] mt-[20px] min-w-[400px] max-w-[800px]">
         <h1 className="text-center text-[44px] font-semibold">{shopItem.Name}</h1>

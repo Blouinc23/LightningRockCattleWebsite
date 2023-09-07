@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import ShopItem from "../components/shop/ShopItem";
 import CowTrailLarge from "../assets/splashArt/CowTrailLarge.png";
 import CowAngleFaded from "../assets/CowAngleFaded.png";
@@ -76,6 +76,7 @@ let subItems3 = [
   },
 ];
 
+
 const ShopItems = [
   {
     Name: "Product Name 1",
@@ -97,12 +98,29 @@ const ShopItems = [
   },
 ];
 function Shop(props) {
+  const [showViewCart,setShowViewCart]=useState(true)
+  const [viewCartClasses,setViewCartClasses]=useState('translate-x-[17%]')
+  const [cartIconClasses,setCartIconClasses]=useState('bg-greylite')
+
+  function cartClickHandler(e){
+    setShowViewCart(prevState => !prevState)
+    if(!showViewCart){
+      setViewCartClasses('translate-x-[17%]')
+      setCartIconClasses('bg-greylite')
+      return 
+    }
+    setViewCartClasses('translate-x-[80%]')
+    setCartIconClasses('bg-transparent')
+
+  }
   return (
     <>
-    <div className="fixed right-0 top-[300px] px-[30px]">
-        <img src={cart} alt="cartIcon"></img>
+    <div className={`z-[10] fixed right-0 top-[300px] flex items-center border-8 border-greylite pr-[50px] rounded-full ${viewCartClasses}  transition-all duration-200`}>
+        <img src={cart} alt="cartIcon" className={`w-[50px] h-[50px] mr-[15px] rounded-full overflow-visible rounded-e-full p-2 ${cartIconClasses} hover:bg-greylite transition-all duration-500 cursor-pointer`} onClick={cartClickHandler}></img>
+        <p className="text-blacklite text-[28px] hover:text-secondary cursor-pointer transition-all duration-200">View Order</p>
     </div>
-      <div className="flex flex-col items-center justify-center mb-[300px] mt-[20px] relative">
+
+      <div className="z-[0] flex flex-col items-center justify-center mb-[300px] mt-[20px] relative">
         <div className="absolute top-[75px] right-[250px] z-[-1]">
           <img src={CowTrailLarge} className="w-[35vw]"></img>
         </div>
