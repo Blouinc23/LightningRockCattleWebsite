@@ -62,12 +62,11 @@ function Home(props) {
           ></ImageCard>
         </div>
         <div className="flex flex-col flex-shrink-0 lg:w-[1000px] mx-[50px] relative">
-          <h1 className="lg:text-[64px] text-[48px] text-blacklite lg:text-left text-center">Grazing in the Shade</h1>
-          <p className="text-blacklite lg:leading-[4.5rem] leading-[3rem] lg:text-right text-left lg:text-[34px] text-[20px] mb-[20px]">
+          <h1 className="lg:text-[64px] text-[48px] text-blacklite lg:text-center text-center">Pasture Raised. Pasture Finished. Flavored by Nature.</h1>
+          <p className="text-blacklite lg:leading-[4.5rem] leading-[3rem] lg:text-left text-left lg:text-[34px] text-[20px] mb-[20px]">
           Our cattle are raised and finished on our farm in Walterboro, SC. We use regenerative
 practices such as no-till planting, rotational grazing, and prescribed fire to convert a neglected
-forest into silvopasture. Our cattle graze in the shade of the loblolly pines. We never use
-hormones or antibiotics. Taste the difference nature can make.
+forest into silvopasture. Our cattle graze in the shade of the loblolly pines. We never use hormones or antibiotics on our cattle or herbicides or fertilizers in our pastures. Taste the difference nature can make.
 
           </p>
           <div className="absolute top-[50px] lg:w-[1000px]">
@@ -78,8 +77,8 @@ hormones or antibiotics. Taste the difference nature can make.
 
       <div className="flex lg:flex-row flex-col items-center justify-center my-[100px]" id="AboutImageSet">
         <div className="flex flex-col flex-shrink-0 lg:w-[1000px] mx-[50px] relative">
-          <h1 className="lg:text-[64px] text-[48px] text-blacklite lg:text-left text-center">About the Wright's</h1>
-          <p className="text-blacklite lg:leading-[2.5rem] leading-[1rem] lg:text-right text-left lg:text-[22px] text-[20px] mb-[20px]">
+          <h1 className="lg:text-[64px] text-[48px] text-blacklite lg:text-left text-center">About the Wrights</h1>
+          <p className="text-blacklite lg:leading-[4.5rem] leading-[1rem] lg:text-left text-left lg:text-[34px] text-[20px] mb-[20px]">
           Trey is a 4th generation cattleman from northern California and Corrine is a 1st generation farmer from eastern Massachusetts. Trey served in the Navy for 8 years on the MH-53 helicopter before going back to school for Fire Science and becoming a Fire Fighter. Corrine has been in the Coast Guard for ten years as a naval engineer and project manager. They met while both on active duty in Norfolk, Virginia and the rest is history!
 Settling in Charleston, South Carolina, Trey and Corrine found a piece of property that would allow their dreams to come alive. The couple has worked to fence, plant, burn, and graze the farm. It’s unrecognizable from the overgrown landscape they took a chance on in 2020.
 Today, Trey, Corrine, and their two daughters raise South Poll and Pineywoods cattle for beef, chickens for meat, ducks for both eggs and meat, and bees for honey. Trey is a Firefighter in Charleston and Corrine still serves on active duty in the Coast Guard.

@@ -67,7 +67,7 @@ const timelineEntries = [
     title: "Moving",
     date: "Nov. 2022",
     description:
-      "– We decided to upgrade our camper to a 5th wheel and move full-time to the property. We rented our house in Charleston and have been tiny-home living! This move allowed us to oversee the farm as we continued growing. In the beginning of 2023, we built a pole barn (our first permanent structure!) for hay and equipment storage. We’ve also held classes and field days under the barn.",
+      "We decided to upgrade our camper to a 5th wheel and move full-time to the property. We rented our house in Charleston and have been tiny-home living! This move allowed us to oversee the farm as we continued growing. In the beginning of 2023, we built a pole barn (our first permanent structure!) for hay and equipment storage. We’ve also held classes and field days under the barn.",
     image: Beekeeping,
     id: "Moving",
   },

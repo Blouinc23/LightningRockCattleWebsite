@@ -17,7 +17,7 @@ function TimelineSection(props) {
   return (
     <div className="bg-secondary lg:h-[900px] flex flex-col items-center text-center lg:text-[68px] text-[48px]  h-auto text-blacklite">
       <h1 className="mt-[25px] mx-[10px]">
-        Old Forrest to New Beginnings
+        Old Forest to New Beginnings
       </h1>
 
       <div>
@@ -46,11 +46,11 @@ function TimelineSection(props) {
         </div>
       </div>
 
-      <div className="flex lg:flex-row flex-col bg-greylite lg:w-[1400px] lg:h-[450px] h-auto rounded-2xl mx-[25px] lg:mb-auto mb-[50px]">
+      <div className="flex lg:flex-row flex-col bg-greylite lg:w-[1400px] lg:h-[525px] h-auto rounded-2xl mx-[25px] lg:mb-auto mb-[50px]">
         <img
           src={timelineEntry.image}
           alt="placeholder"
-          className="lg:w-[1000px] w-[400px] lg:h-[450px] h-[400px] rounded-2xl object-cover self-center lg:self-auto"
+          className="lg:w-[1000px] w-[400px] lg:h-[525px] h-[400px] rounded-2xl object-cover self-center lg:self-auto"
         />
         <div className="text-left mx-[50px] lg:w-[550px] lg:my-[25px] relative top-[0px] overflow-y-auto">
           <h1 className="lg:text-[44px] text-[34px]">{timelineEntry.title}</h1>
