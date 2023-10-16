@@ -55,7 +55,9 @@ export default {
         greenlite: "#F2F6F7",
       },
       
-    plugins: [],
+    plugins: [
+      require('tailwind-scrollbar'),
+    ],
   },
 },}
 

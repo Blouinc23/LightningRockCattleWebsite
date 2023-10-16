@@ -99,12 +99,12 @@ const ShopItems = [
 ];
 function Shop(props) {
   const [showViewCart,setShowViewCart]=useState(true)
-  const [viewCartClasses,setViewCartClasses]=useState('translate-x-[17%]')
-  const [cartIconClasses,setCartIconClasses]=useState('bg-greylite')
+  const [viewCartClasses,setViewCartClasses]=useState('translate-x-[80%]')
+  const [cartIconClasses,setCartIconClasses]=useState('bg-transparent')
 
   function cartClickHandler(e){
     setShowViewCart(prevState => !prevState)
-    if(!showViewCart){
+    if(showViewCart){
       setViewCartClasses('translate-x-[17%]')
       setCartIconClasses('bg-greylite')
       return 
@@ -121,7 +121,7 @@ function Shop(props) {
     </div>
 
       <div className="z-[0] flex flex-col items-center justify-center mb-[300px] mt-[20px] relative">
-        <div className="absolute top-[75px] right-[250px] z-[-1]">
+        <div className="absolute top-[75px] right-[20%] z-[-1] overflow-hidden mt-[0%] h-[90%]">
           <img src={CowTrailLarge} className="w-[35vw]"></img>
         </div>
 
